@@ -123,8 +123,8 @@ tr069_services.extend([
             "NewExternalIPAddress": "external_ip",
             "NewLastAuthErrorInfo": "last_auth_error",
             "NewPPPoEACName": "remote_pop",
-            "NewUptime": "linkuptime",
-            "NewConnectionStatus": "connection_status",
+            "NewUptime": "phyiscal_linkuptime",
+            "NewConnectionStatus": "physical_connection_status",
             "NewLastConnectionError": "last_connection_error"
         }
     },
@@ -134,8 +134,8 @@ tr069_services.extend([
         "link_type": "Cable",
         "value_instances": {
             "NewExternalIPAddress": "external_ip",
-            "NewUptime": "linkuptime",
-            "NewConnectionStatus": "connection_status",
+            "NewUptime": "phyiscal_linkuptime",
+            "NewConnectionStatus": "physical_connection_status",
             "NewLastConnectionError": "last_connection_error"
         }
     },
